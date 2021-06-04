@@ -2,8 +2,8 @@
 
 Briefing("type", "wc2",
   "title", "V. TOL BARAD",
-  "objective", "-Reclaim Tol Barad",
-  "objective", "-Destroy Dun Modr",
+  "objective", "-R‚cup‚rer Tol Barad",
+  "objective", "-D‚truire Dun Modr",
   "background", "campaigns/human/interface/introscreen2.png",
   "text", "campaigns/human/level05h.txt",
   "voice", "campaigns/human/level05h-intro1.wav",

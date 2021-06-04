@@ -2,8 +2,8 @@
 
 Briefing("type", "wc2",
   "title", "I. HILLSBRAD",
-  "objective", "-Build four Farms",
-  "objective", "-Build a Barracks",
+  "objective", "-Construire Quatre Fermes",
+  "objective", "-Construire une Caserne",
   "background", "campaigns/human/interface/introscreen1.png",
   "text", "campaigns/human/level01h.txt",
   "voice", "campaigns/human/level01h-intro1.wav",

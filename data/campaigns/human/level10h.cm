@@ -1,9 +1,9 @@
 --	Stratagus Map - Single player campaign
 
 Briefing("type", "wc2",
-  "title", "X. THE PRISONERS",
-  "objective", "-Build transports at Stratholme",
-  "objective", "-Transport four Alterac traitors to the Circle of Power at Stratholme",
+  "title", "X. LES PRISONNIERS",
+  "objective", "-Construire des transports a Stratholme",
+  "objective", "-Transporter les Quatre Traitres d'Alterac au Circle du Pouvoir a Stratholme",
   "background", "campaigns/human/interface/introscreen3.png",
   "text", "campaigns/human/level10h.txt",
   "voice", "campaigns/human/level10h-intro1.wav"

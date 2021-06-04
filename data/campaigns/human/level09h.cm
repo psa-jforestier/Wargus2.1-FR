@@ -1,8 +1,8 @@
 --	Stratagus Map - Single player campaign
 
 Briefing("type", "wc2",
-  "title", "IX. THE BATTLE AT DARROWMERE",
-  "objective", "-Escort the Lightbringer to the Circle of Power at Caer Darrow",
+  "title", "IX. LA BATAILLE DE DARROWMERE",
+  "objective", "-Escorter le Porteur de Lumicre jusqu'au Cercle de Puissance de Caer Darrow",
   "background", "campaigns/human/interface/introscreen3.png",
   "text", "campaigns/human/level09h.txt",
   "voice", "campaigns/human/level09h-intro1.wav"

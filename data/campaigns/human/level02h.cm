@@ -1,9 +1,9 @@
 --	Stratagus Map - Single player campaign
 
 Briefing("type", "wc2",
-  "title", "II. AMBUSH AT TARREN MILL",
-  "objective", "-Rescue a captured Elven Archer",
-  "objective", "-Return him to the Circle of Power",
+  "title", "II. AMBUSCADE AU MOULIN DE TARREN",
+  "objective", "-Secourir l'Archer Elf",
+  "objective", "-Le Renvoyer au Cercle du Pouvoir",
   "background", "campaigns/human/interface/introscreen1.png",
   "text", "campaigns/human/level02h.txt",
   "voice", "campaigns/human/level02h-intro1.wav",

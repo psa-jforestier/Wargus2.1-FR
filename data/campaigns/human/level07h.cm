@@ -2,7 +2,7 @@
 
 Briefing("type", "wc2",
   "title", "VII. GRIM BATOL",
-  "objective", "-Destroy five Oil Refineries",
+  "objective", "-D‚truire Cinq Rafineries de P‚trol",
   "background", "campaigns/human/interface/introscreen3.png",
   "text", "campaigns/human/level07h.txt",
   "voice", "campaigns/human/level07h-intro1.wav",

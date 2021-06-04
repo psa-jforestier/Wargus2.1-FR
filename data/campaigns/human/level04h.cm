@@ -1,8 +1,8 @@
 --	Stratagus Map - Single player campaign
 
 Briefing("type", "wc2",
-  "title", "IV. ATTACK ON ZUL'DARE",
-  "objective", "-Destroy the Orc base",
+  "title", "IV. ATTAQUE SUR ZUL'DARE",
+  "objective", "-Détruire la Base des Orcs",
   "background", "campaigns/human/interface/introscreen1.png",
   "text", "campaigns/human/level04h.txt",
   "voice", "campaigns/human/level04h-intro1.wav",

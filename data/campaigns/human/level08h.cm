@@ -3,10 +3,10 @@
 -- FIXME: the peasant must attack the others!
 
 Briefing("type", "wc2",
-  "title", "VIII. TYR'S HAND",
-  "objective", "-Quell the peasant uprising",
-  "objective", "-Build a Castle",
-  "objective", "-Destroy enemy forces",
+  "title", "VIII. LA MAIN DE TYR",
+  "objective", "-R‚primer le Soulevement des Paysans",
+  "objective", "-Construire un Chateau",
+  "objective", "-D‚truire les forces ennemies",
   "background", "campaigns/human/interface/introscreen3.png",
   "text", "campaigns/human/level08h.txt",
   "voice", "campaigns/human/level08h-intro1.wav",
