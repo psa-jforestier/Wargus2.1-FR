@@ -1,9 +1,9 @@
 --	Stratagus Map - Single player campaign
 
 Briefing("type", "wc2",
-  "title", "XI. BETRAYAL AND THE DESTRUCTION OF ALTERAC",
-  "objective", "-Free the Mages and Peasants",
-  "objective", "-Destroy Alterac",
+  "title", "XI. LA TRAHISON ET LA DESTRUCTION D'ALTERAC",
+  "objective", "-Lib‚rer les Mages et les Paysans",
+  "objective", "-D‚truire Alterac",
   "background", "campaigns/human/interface/introscreen4.png",
   "text", "campaigns/human/level11h.txt",
   "voice", "campaigns/human/level11h-intro1.wav",

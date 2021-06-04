@@ -1,10 +1,10 @@
 --	Stratagus Map - Single player campaign
 
 Briefing("type", "wc2",
-  "title", "XII. THE BATTLE AT CRESTFALL",
-  "objective", "-Destroy Orc Transports",
-  "objective", "-Destroy all Oil Derricks",
-  "objective", "-Destroy all Shipyards",
+  "title", "XII. LA BATAILLE POUR CRESTFALL",
+  "objective", "-D‚truire les Transports Orcs",
+  "objective", "-D‚truire tout les Derricks de P‚trol",
+  "objective", "-D‚truire tous les chantiers navals",
   "background", "campaigns/human/interface/introscreen4.png",
   "text", "campaigns/human/level12h.txt",
   "voice", "campaigns/human/level12h-intro1.wav"
