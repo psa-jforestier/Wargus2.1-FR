@@ -27,7 +27,7 @@
 --      Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 --
 --      $Id: tilesets.lua,v 1.3 2004/01/31 05:59:05 jsalmon3 Exp $
-
+-- __JFO use OEM852 encoding
 --=============================================================================
 --	Load the different tileset definitions
 --
@@ -35,16 +35,16 @@
 
 Load("scripts/wc2-config.lua")
 
-DefineTileset("tileset-summer", "class", "summer", "name", "Forest",
+DefineTileset("tileset-summer", "class", "summer", "name", "Foret",
   "file", "scripts/tilesets/summer.lua")
-DefineTileset("tileset-winter", "class", "winter", "name", "Winter",
+DefineTileset("tileset-winter", "class", "winter", "name", "Hiver",
   "file", "scripts/tilesets/winter.lua")
-DefineTileset("tileset-wasteland", "class", "wasteland", "name", "Wasteland",
+DefineTileset("tileset-wasteland", "class", "wasteland", "name", "D‚sertique",
   "file", "scripts/tilesets/wasteland.lua")
 if (expansion) then
-  DefineTileset("tileset-swamp", "class", "swamp", "name", "Swamp",
+  DefineTileset("tileset-swamp", "class", "swamp", "name", "Marais",
     "file", "scripts/tilesets/swamp.lua")
 else
-  DefineTileset("tileset-swamp", "class", "swamp", "name", "Swamp",
+  DefineTileset("tileset-swamp", "class", "swamp", "name", "Marais",
     "file", "scripts/tilesets/dummy-swamp.lua")
 end

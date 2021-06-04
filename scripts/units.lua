@@ -27,7 +27,7 @@
 --      Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 --
 --      $Id: units.lua,v 1.10 2004/02/09 15:54:42 nobody_ Exp $
-
+-- __JFO use OEM852 encoding
 -- Load the animations for the units.
 Load("scripts/anim.lua")
 
@@ -146,7 +146,7 @@ DefineUnitType("unit-daemon", { Name = "Daemon",
     "dead", "basic orc voices dead",
     "attack", "daemon-attack"} } )
 
-DefineUnitType("unit-critter", { Name = "Critter",
+DefineUnitType("unit-critter", { Name = "B‚tail",
   Files = {"tileset-summer", "tilesets/summer/neutral/units/critter.png",
     "tileset-winter", "tilesets/winter/neutral/units/critter.png",
     "tileset-wasteland", "tilesets/wasteland/neutral/units/critter.png",
@@ -179,7 +179,7 @@ DefineUnitType("unit-critter", { Name = "Critter",
     "dead", "critter-dead",
     "attack", "critter-attack"} } )
 
-DefineUnitType("unit-gold-mine", { Name = "Gold Mine",
+DefineUnitType("unit-gold-mine", { Name = "Mine d'Or",
   Files = {"tileset-summer", "tilesets/summer/neutral/buildings/gold_mine.png",
     "tileset-winter", "tilesets/winter/neutral/buildings/gold_mine.png",
     "tileset-wasteland", "tilesets/wasteland/neutral/buildings/gold_mine.png",
@@ -209,7 +209,7 @@ DefineUnitType("unit-gold-mine", { Name = "Gold Mine",
     "dead", "building destroyed",
     "attack", "gold-mine-attack"} } )
 
-DefineUnitType("unit-oil-patch", { Name = "Oil Patch",
+DefineUnitType("unit-oil-patch", { Name = "Poche de P‚trol",
   Files = {"tileset-summer", "tilesets/summer/neutral/buildings/oil_patch.png",
     "tileset-wasteland", "tilesets/wasteland/neutral/buildings/oil_patch.png",
     "tileset-swamp", "tilesets/swamp/neutral/buildings/oil_patch.png"},
@@ -234,7 +234,7 @@ DefineUnitType("unit-oil-patch", { Name = "Oil Patch",
     "dead", "building destroyed",
     "attack", "oil-patch-attack"} } )
 
-DefineUnitType("unit-circle-of-power", { Name = "Circle of Power",
+DefineUnitType("unit-circle-of-power", { Name = "Cercle du Pouvoir",
   Files = {"tileset-summer", "neutral/buildings/circle_of_power.png"},
   Size = {64, 64},
   Animations = "animations-building", Icon = "icon-circle-of-power",
@@ -323,7 +323,7 @@ DefineUnitType("unit-runestone", { Name = "Runestone",
     "dead", "building destroyed",
     "attack", "runestone-attack"} } )
 
-DefineUnitType("unit-dead-body", { Name = "Dead Body",
+DefineUnitType("unit-dead-body", { Name = "Cadavre",
   Files = {"tileset-summer", "neutral/units/corpses.png"},
   Size = {72, 72},
   Animations = "animations-dead-body", Icon = "icon-peasant",
