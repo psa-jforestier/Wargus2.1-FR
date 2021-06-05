@@ -1,9 +1,9 @@
 --	Stratagus Map - Single player campaign
 
 Briefing("type", "wc2",
-  "title", "XIII. ASSAULT ON BLACKROCK SPIRE",
-  "objective", "-Destroy Blackrock Spire",
-  "objective", "-Eradicate any and all enemy forces",
+  "title", "XIII. ASSAUT SUR BLACKROCK SPIRE",
+  "objective", "-DÇtruire Blackrock Spire",
+  "objective", "-êradiquer toutes les forces ennemies",
   "background", "campaigns/human/interface/introscreen5.png",
   "text", "campaigns/human/level13h.txt",
   "voice", "campaigns/human/level13h-intro1.wav",

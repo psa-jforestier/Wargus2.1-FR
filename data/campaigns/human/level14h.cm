@@ -1,8 +1,8 @@
 --	Stratagus Map - Single player campaign
 
 Briefing("type", "wc2",
-  "title", "XIV. THE GREAT PORTAL",
-  "objective", "-Destroy the Great Portal",
+  "title", "XIV. LE GRAND PORTAIL",
+  "objective", "-D‚truire le Grand Portail",
   "background", "campaigns/human/interface/introscreen5.png",
   "text", "campaigns/human/level14h.txt",
   "voice", "campaigns/human/level14h-intro1.wav"
