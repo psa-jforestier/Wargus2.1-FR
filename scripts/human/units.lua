@@ -34,7 +34,7 @@
 --	NOTE: Save can generate this table.
 --
 
-DefineUnitType("unit-footman", { Name = "Footman",
+DefineUnitType("unit-footman", { Name = "Fantassin",
   Files = {"tileset-summer", "human/units/footman.png"},
   Size = {72, 72},
   Animations = "animations-footman", Icon = "icon-footman",
@@ -65,7 +65,7 @@ DefineUnitType("unit-footman", { Name = "Footman",
     "dead", "basic human voices dead",
     "attack", "footman-attack"} } )
 
-DefineUnitType("unit-peasant", { Name = "Peasant",
+DefineUnitType("unit-peasant", { Name = "Paysan",
   Files = {"tileset-summer", "human/units/peasant.png"},
   Size = {72, 72},
   DrawLevel = 19,
@@ -115,7 +115,7 @@ DefineUnitType("unit-peasant", { Name = "Peasant",
     "dead", "basic human voices dead",
     "attack", "peasant-attack"} } )
 
-DefineUnitType("unit-ballista", { Name = "Ballista",
+DefineUnitType("unit-ballista", { Name = "Balliste",
   Files = {"tileset-summer", "human/units/ballista.png"},
   Size = {64, 64},
   Animations = "animations-ballista", Icon = "icon-ballista",
@@ -145,7 +145,7 @@ DefineUnitType("unit-ballista", { Name = "Ballista",
     "dead", "explosion",
     "attack", "ballista-attack"} } )
 
-DefineUnitType("unit-knight", { Name = "Knight",
+DefineUnitType("unit-knight", { Name = "Chevalier",
   Files = {"tileset-summer", "human/units/knight.png"},
   Size = {72, 72},
   Animations = "animations-knight", Icon = "icon-knight",
@@ -279,7 +279,7 @@ DefineUnitType("unit-paladin", { Name = "Paladin",
     "dead", "basic human voices dead",
     "attack", "paladin-attack"} } )
 
-DefineUnitType("unit-dwarves", { Name = "Dwarves",
+DefineUnitType("unit-dwarves", { Name = "Nains",
   Files = {"tileset-summer", "human/units/dwarven_demolition_squad.png"},
   Size = {56, 56},
   Animations = "animations-dwarves", Icon = "icon-dwarves",
@@ -373,7 +373,7 @@ DefineUnitType("unit-female-hero", { Name = "Alleria",
     "dead", "basic human voices dead",
     "attack", "alleria-attack"} } )
 
-DefineUnitType("unit-flying-angle", { Name = "Kurdan and Sky'ree",
+DefineUnitType("unit-flying-angle", { Name = "Kurdan et Sky'ree",
   Files = {"tileset-summer", "human/units/gryphon_rider.png"},
   Size = {80, 80},
   DrawLevel = 45,
@@ -511,7 +511,7 @@ DefineUnitType("unit-human-transport", { Name = "Transport",
     "dead", "ship sinking",
     "attack", "human-transport-attack"} } )
 
-DefineUnitType("unit-human-destroyer", { Name = "Elven Destroyer",
+DefineUnitType("unit-human-destroyer", { Name = "Transporteur d'Elfes", -- __JFO Eleven destroyer
   Files = {"tileset-summer", "human/units/elven_destroyer.png"},
   Size = {80, 88},
   Animations = "animations-elven-destroyer", Icon = "icon-human-destroyer",
@@ -541,7 +541,7 @@ DefineUnitType("unit-human-destroyer", { Name = "Elven Destroyer",
     "dead", "ship sinking",
     "attack", "elven-destroyer-attack"} } )
 
-DefineUnitType("unit-battleship", { Name = "Battleship",
+DefineUnitType("unit-battleship", { Name = "Bateau de guerre",
   Files = {"tileset-summer", "human/units/battleship.png"},
   Size = {88, 88},
   Animations = "animations-battleship", Icon = "icon-battleship",
@@ -572,7 +572,7 @@ DefineUnitType("unit-battleship", { Name = "Battleship",
     "dead", "ship sinking",
     "attack", "battleship-attack"} } )
 
-DefineUnitType("unit-human-submarine", { Name = "Gnomish Submarine",
+DefineUnitType("unit-human-submarine", { Name = "Sous-marin Gnome",
   Files = {"tileset-summer", "human/units/gnomish_submarine.png",
     "tileset-wasteland", "tilesets/wasteland/human/units/gnomish_submarine.png",
     "tileset-swamp", "tilesets/swamp/human/units/gnomish_submarine.png"},
@@ -606,7 +606,7 @@ DefineUnitType("unit-human-submarine", { Name = "Gnomish Submarine",
     "dead", "ship sinking",
     "attack", "gnomish-submarine-attack"} } )
 
-DefineUnitType("unit-balloon", { Name = "Gnomish Flying Machine",
+DefineUnitType("unit-balloon", { Name = "Machine Volante Gnome",
   Files = {"tileset-summer", "human/units/gnomish_flying_machine.png"},
   Size = {80, 80},
   Animations = "animations-gnomish-flying-machine", Icon = "icon-gnomish-flying-machine",
@@ -798,7 +798,7 @@ DefineUnitType("unit-man-of-light", { Name = "Uther Lightbringer",
     "dead", "basic human voices dead",
     "attack", "uther-lightbringer-attack"} } )
 
-DefineUnitType("unit-farm", { Name = "Farm",
+DefineUnitType("unit-farm", { Name = "Ferme",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/farm.png",
     "tileset-winter", "tilesets/winter/human/buildings/farm.png",
     "tileset-wasteland", "tilesets/wasteland/human/buildings/farm.png",
@@ -830,7 +830,7 @@ DefineUnitType("unit-farm", { Name = "Farm",
     "dead", "building destroyed",
     "attack", "farm-attack"} } )
 
-DefineUnitType("unit-human-barracks", { Name = "Barracks",
+DefineUnitType("unit-human-barracks", { Name = "Caserne",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/barracks.png",
     "tileset-winter", "tilesets/winter/human/buildings/barracks.png",
     "tileset-swamp", "tilesets/swamp/human/buildings/barracks.png"},
@@ -860,7 +860,7 @@ DefineUnitType("unit-human-barracks", { Name = "Barracks",
     "dead", "building destroyed",
     "attack", "human-barracks-attack"} } )
 
-DefineUnitType("unit-church", { Name = "Church",
+DefineUnitType("unit-church", { Name = "Eglise",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/church.png",
     "tileset-winter", "tilesets/winter/human/buildings/church.png",
     "tileset-swamp", "tilesets/swamp/human/buildings/church.png"},
@@ -890,7 +890,7 @@ DefineUnitType("unit-church", { Name = "Church",
     "dead", "building destroyed",
     "attack", "church-attack"} } )
 
-DefineUnitType("unit-human-watch-tower", { Name = "Scout Tower",
+DefineUnitType("unit-human-watch-tower", { Name = "Tour de guet",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/scout_tower.png",
     "tileset-winter", "tilesets/winter/human/buildings/scout_tower.png",
     "tileset-swamp", "tilesets/swamp/human/buildings/scout_tower.png"},
@@ -922,7 +922,7 @@ DefineUnitType("unit-human-watch-tower", { Name = "Scout Tower",
     "dead", "building destroyed",
     "attack", "human-watch-tower-attack"} } )
 
-DefineUnitType("unit-stables", { Name = "Stables",
+DefineUnitType("unit-stables", { Name = "Etables",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/stables.png",
     "tileset-winter", "tilesets/winter/human/buildings/stables.png",
     "tileset-swamp", "tilesets/swamp/human/buildings/stables.png"},
@@ -952,7 +952,7 @@ DefineUnitType("unit-stables", { Name = "Stables",
     "dead", "building destroyed",
     "attack", "stables-attack"} } )
 
-DefineUnitType("unit-inventor", { Name = "Gnomish Inventor",
+DefineUnitType("unit-inventor", { Name = "Inventeur Gnome",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/gnomish_inventor.png",
     "tileset-winter", "tilesets/winter/human/buildings/gnomish_inventor.png",
     "tileset-swamp", "tilesets/swamp/human/buildings/gnomish_inventor.png"},
@@ -982,7 +982,7 @@ DefineUnitType("unit-inventor", { Name = "Gnomish Inventor",
     "dead", "building destroyed",
     "attack", "gnomish-inventor-attack"} } )
 
-DefineUnitType("unit-gryphon-aviary", { Name = "Gryphon Aviary",
+DefineUnitType("unit-gryphon-aviary", { Name = "Volière Gryphon",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/gryphon_aviary.png",
     "tileset-winter", "tilesets/winter/human/buildings/gryphon_aviary.png",
     "tileset-swamp", "tilesets/swamp/human/buildings/gryphon_aviary.png"},
@@ -1012,7 +1012,7 @@ DefineUnitType("unit-gryphon-aviary", { Name = "Gryphon Aviary",
     "dead", "building destroyed",
     "attack", "gryphon-aviary-attack"} } )
 
-DefineUnitType("unit-human-shipyard", { Name = "Shipyard",
+DefineUnitType("unit-human-shipyard", { Name = "Chantier Naval",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/shipyard.png",
     "tileset-winter", "tilesets/winter/human/buildings/shipyard.png",
     "tileset-swamp", "tilesets/swamp/human/buildings/shipyard.png"},
@@ -1044,7 +1044,7 @@ DefineUnitType("unit-human-shipyard", { Name = "Shipyard",
     "dead", "building destroyed",
     "attack", "human-shipyard-attack"} } )
 
-DefineUnitType("unit-elven-lumber-mill", { Name = "Elven Lumber Mill",
+DefineUnitType("unit-elven-lumber-mill", { Name = "Moulin des Elfes",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/elven_lumber_mill.png",
     "tileset-winter", "tilesets/winter/human/buildings/elven_lumber_mill.png",
     "tileset-wasteland", "tilesets/wasteland/human/buildings/elven_lumber_mill.png",
@@ -1077,7 +1077,7 @@ DefineUnitType("unit-elven-lumber-mill", { Name = "Elven Lumber Mill",
     "dead", "building destroyed",
     "attack", "elven-lumber-mill-attack"} } )
 
-DefineUnitType("unit-human-foundry", { Name = "Foundry",
+DefineUnitType("unit-human-foundry", { Name = "Fonderie",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/foundry.png",
     "tileset-winter", "tilesets/winter/human/buildings/foundry.png",
     "tileset-swamp", "tilesets/swamp/human/buildings/foundry.png"},
@@ -1108,7 +1108,7 @@ DefineUnitType("unit-human-foundry", { Name = "Foundry",
     "dead", "building destroyed",
     "attack", "human-foundry-attack"} } )
 
-DefineUnitType("unit-town-hall", { Name = "Town Hall",
+DefineUnitType("unit-town-hall", { Name = "Mairie",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/town_hall.png",
     "tileset-winter", "tilesets/winter/human/buildings/town_hall.png",
     "tileset-swamp", "tilesets/swamp/human/buildings/town_hall.png"},
@@ -1140,7 +1140,7 @@ DefineUnitType("unit-town-hall", { Name = "Town Hall",
     "dead", "building destroyed",
     "attack", "town-hall-attack"} } )
 
-DefineUnitType("unit-mage-tower", { Name = "Mage Tower",
+DefineUnitType("unit-mage-tower", { Name = "Tour du Mage",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/mage_tower.png",
     "tileset-winter", "tilesets/winter/human/buildings/mage_tower.png",
     "tileset-swamp", "tilesets/swamp/human/buildings/mage_tower.png"},
@@ -1170,7 +1170,7 @@ DefineUnitType("unit-mage-tower", { Name = "Mage Tower",
     "dead", "building destroyed",
     "attack", "mage-tower-attack"} } )
 
-DefineUnitType("unit-human-blacksmith", { Name = "Blacksmith",
+DefineUnitType("unit-human-blacksmith", { Name = "Forgeron",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/blacksmith.png",
     "tileset-winter", "tilesets/winter/human/buildings/blacksmith.png",
     "tileset-swamp", "tilesets/swamp/human/buildings/blacksmith.png"},
@@ -1200,7 +1200,7 @@ DefineUnitType("unit-human-blacksmith", { Name = "Blacksmith",
     "dead", "building destroyed",
     "attack", "human-blacksmith-attack"} } )
 
-DefineUnitType("unit-human-refinery", { Name = "Refinery",
+DefineUnitType("unit-human-refinery", { Name = "Rafinerie",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/refinery.png",
     "tileset-winter", "tilesets/winter/human/buildings/refinery.png",
     "tileset-swamp", "tilesets/swamp/human/buildings/refinery.png"},
@@ -1233,7 +1233,7 @@ DefineUnitType("unit-human-refinery", { Name = "Refinery",
     "dead", "building destroyed",
     "attack", "human-refinery-attack"} } )
 
-DefineUnitType("unit-human-oil-platform", { Name = "Oil Platform",
+DefineUnitType("unit-human-oil-platform", { Name = "Plateforme P‚trolicre",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/oil_platform.png",
     "tileset-winter", "tilesets/winter/human/buildings/oil_platform.png",
     "tileset-wasteland", "tilesets/wasteland/human/buildings/oil_platform.png",
@@ -1297,7 +1297,7 @@ DefineUnitType("unit-keep", { Name = "Keep",
     "dead", "building destroyed",
     "attack", "keep-attack"} } )
 
-DefineUnitType("unit-castle", { Name = "Castle",
+DefineUnitType("unit-castle", { Name = "Chateau",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/castle.png",
     "tileset-winter", "tilesets/winter/human/buildings/castle.png",
     "tileset-swamp", "tilesets/swamp/human/buildings/castle.png"},
@@ -1330,7 +1330,7 @@ DefineUnitType("unit-castle", { Name = "Castle",
     "dead", "building destroyed",
     "attack", "castle-attack"} } )
 
-DefineUnitType("unit-human-start-location", { Name = "Start Location",
+DefineUnitType("unit-human-start-location", { Name = "Point de d‚part",
   Files = {"tileset-summer", "human/x_startpoint.png"},
   Size = {32, 32},
   Animations = "animations-building", Icon = "icon-cancel",
@@ -1352,7 +1352,7 @@ DefineUnitType("unit-human-start-location", { Name = "Start Location",
     "dead", "building destroyed",
     "attack", "human-start-location-attack"} } )
 
-DefineUnitType("unit-human-guard-tower", { Name = "Guard Tower",
+DefineUnitType("unit-human-guard-tower", { Name = "Tour de Garde",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/guard_tower.png",
     "tileset-winter", "tilesets/winter/human/buildings/guard_tower.png",
     "tileset-swamp", "tilesets/swamp/human/buildings/guard_tower.png"},
@@ -1386,7 +1386,7 @@ DefineUnitType("unit-human-guard-tower", { Name = "Guard Tower",
     "dead", "building destroyed",
     "attack", "human-guard-tower-attack"} } )
 
-DefineUnitType("unit-human-cannon-tower", { Name = "Cannon Tower",
+DefineUnitType("unit-human-cannon-tower", { Name = "Tour a Cannon",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/cannon_tower.png",
     "tileset-winter", "tilesets/winter/human/buildings/cannon_tower.png",
     "tileset-swamp", "tilesets/swamp/human/buildings/cannon_tower.png"},
@@ -1420,7 +1420,7 @@ DefineUnitType("unit-human-cannon-tower", { Name = "Cannon Tower",
     "dead", "building destroyed",
     "attack", "human-cannon-tower-attack"} } )
 
-DefineUnitType("unit-human-wall", { Name = "Wall",
+DefineUnitType("unit-human-wall", { Name = "Mur",
   Files = {"tileset-summer", "tilesets/summer/neutral/buildings/wall.png",
     "tileset-winter", "tilesets/winter/neutral/buildings/wall.png",
     "tileset-wasteland", "tilesets/wasteland/neutral/buildings/wall.png"},
