@@ -45,13 +45,14 @@ print("Stratagus default config file loading ...\n")
 
 --  Enter your default title screen.
 SetTitleScreens({
-  Image = "graphics/ui/stratagus.png",
-  Music = "music/default.mod"}
+  Image = "graphics/ui/title.png",
+--  Music = "music/default.mod"}
+  Music = "music/warcraft.it"}
 --  {"graphics/logo_stratagus.avi"}
 )
 
 --  Enter your menu music.
-SetMenuMusic("music/default.mod")
+SetMenuMusic("music/warcraft.s3m")
 
 --  If color-cycle-all is off (#f) only the tileset and global palette are
 --  color cycled.  Otherwise (#t) all palettes are color cycled.
