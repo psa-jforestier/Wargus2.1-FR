@@ -626,7 +626,7 @@ DefineButton( { Pos = 1, Level = 0, Icon = "icon-arrow2",
 DefineButton( { Pos = 1, Level = 0, Icon = "icon-arrow3",
   Action = "research", Value = "upgrade-arrow2",
   Allowed = "check-single-research",
-  Key = "u", Hint = "~AMêLIORER LES FLECHES (~!U) (DÇgat +1)",
+  Key = "u", Hint = "AMêLIORER LES FLECHES (~!U) (DÇgat +1)",
   ForUnit = {"unit-elven-lumber-mill"} } )
 
 DefineButton( { Pos = 4, Level = 0, Icon = "icon-ranger",
