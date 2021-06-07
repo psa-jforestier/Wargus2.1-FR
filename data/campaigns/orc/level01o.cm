@@ -2,8 +2,8 @@
 
 Briefing("type", "wc2",
   "title", "I. ZUL'DARE",
-  "objective", "-Build four Farms",
-  "objective", "-Build a Barracks",
+  "objective", "-Construire Quatres Fermes",
+  "objective", "-Construire une Caserne",
   "background", "campaigns/orc/interface/introscreen1.png",
   "text", "campaigns/orc/level01o.txt",
   "voice", "campaigns/orc/level01o-intro1.wav"

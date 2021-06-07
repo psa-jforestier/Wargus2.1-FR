@@ -1,10 +1,10 @@
 --	Stratagus Map - Single player campaign
 
 Briefing("type", "wc2",
-  "title", "X. THE DESTRUCTION OF STRATHOLME",
-  "objective", "-Destroy all Oil Platforms",
-  "objective", "-Destroy Refineries",
-  "objective", "-Destroy Stratholme",
+  "title", "X. LA DESTRUCTION DE STRATHOLME",
+  "objective", "-D‚truire Toutes les Plateformes P‚trolicres",
+  "objective", "-D‚truire les Raffineries",
+  "objective", "-D‚truire Stratholme",
   "background", "campaigns/orc/interface/introscreen3.png",
   "text", "campaigns/orc/level10o.txt",
   "voice", "campaigns/orc/level10o-intro1.wav"

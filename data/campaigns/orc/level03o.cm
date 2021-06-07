@@ -1,9 +1,9 @@
 --	Stratagus Map - Single player campaign
 
 Briefing("type", "wc2",
-  "title", "III. SOUTHSHORE",
-  "objective", "-Build a Shipyard",
-  "objective", "-Build four Oil Platforms",
+  "title", "III. LES RIVES DU SUD",
+  "objective", "-Construire un Chantier Naval",
+  "objective", "-Construire Quatre Plateformes P‚trolicre",
   "background", "campaigns/orc/interface/introscreen1.png",
   "text", "campaigns/orc/level03o.txt",
   "voice", "campaigns/orc/level03o-intro1.wav",

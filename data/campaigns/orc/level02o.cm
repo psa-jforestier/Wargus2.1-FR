@@ -1,9 +1,9 @@
 -- 	Stratagus Map - Single player campaign
 
 Briefing("type", "wc2",
-  "title", "II. RAID AT HILLSBRAD",
-  "objective", "-Rescue Zuljin",
-  "objective", "-Return him to the Circle of Power",
+  "title", "II. ASSAUT SUR HILLSBRAD",
+  "objective", "-Secourir Zuljin",
+  "objective", "-Le Renvoyer au Cercle du Pouvoir",
   "background", "campaigns/orc/interface/introscreen1.png",
   "text", "campaigns/orc/level02o.txt",
   "voice", "campaigns/orc/level02o-intro1.wav"

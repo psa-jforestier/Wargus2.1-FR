@@ -1,8 +1,8 @@
 --	Stratagus Map - Single player campaign
 
 Briefing("type", "wc2",
-  "title", "IX. THE RAZING OF TYR'S HAND",
-  "objective", "-Build a Fortress and a Shipyard on the island at the mouth of Tyr's Bay",
+  "title", "IX. ERADIQUER LA MAIN DE TYR",
+  "objective", "-Construire une Forteresse et un Chantier Naval sur l'×le, a l'Embouchure de la Baie de Tyr",
   "background", "campaigns/orc/interface/introscreen3.png",
   "text", "campaigns/orc/level09o.txt",
   "voice", "campaigns/orc/level09o-intro1.wav"

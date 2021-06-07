@@ -1,9 +1,9 @@
 --	Stratagus Map - Single player campaign
 
 Briefing("type", "wc2",
-  "title", "IV. ASSAULT ON HILLSBRAD",
-  "objective", "-Destroy Hillsbrad",
-  "objective", "-Slaughter the Alliance's defenders",
+  "title", "IV. ASSAUT SUR HILLSBRAD",
+  "objective", "-D‚truire Hillsbrad",
+  "objective", "-Massacrer les D‚fenseurs de l'Alliance",
   "background", "campaigns/orc/interface/introscreen1.png",
   "text", "campaigns/orc/level04o.txt",
   "voice", "campaigns/orc/level04o-intro1.wav"

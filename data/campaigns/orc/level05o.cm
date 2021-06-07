@@ -2,8 +2,8 @@
 
 Briefing("type", "wc2",
   "title", "V. TOL BARAD",
-  "objective", "-Retake Dun Modr",
-  "objective", "-Destroy Tol Barad",
+  "objective", "-Reprendre Dun Modr",
+  "objective", "-D‚truire Tol Barad",
   "background", "campaigns/orc/interface/introscreen2.png",
   "text", "campaigns/orc/level05o.txt",
   "voice", "campaigns/orc/level05o-intro1.wav"
