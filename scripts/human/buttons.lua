@@ -460,7 +460,7 @@ DefineButton( { Pos = 1, Level = 0, Icon = "icon-gryphon-rider",
 
 DefineButton( { Pos = 1, Level = 0, Icon = "icon-human-oil-tanker",
   Action = "train-unit", Value = "unit-human-oil-tanker",
-  Key = "o", Hint = "CONSTRUIRE ~!OIL TANKER",
+  Key = "o", Hint = "CONSTRUIRE UN PêTR~!OLIER",
   ForUnit = {"unit-human-shipyard"} } )
 
 DefineButton( { Pos = 2, Level = 0, Icon = "icon-human-destroyer",
@@ -487,7 +487,7 @@ if (extensions) then
 -----------------------------------------------------
 DefineButton( { Pos = 6, Level = 0, Icon = "icon-human-ship-haul-oil",
   Action = "harvest",
-  Key = "h", Hint = "SET ~!HAUL OIL",
+  Key = "h", Hint = "INDIQUER OU PROSPECTER (~!H)",
   ForUnit = {"unit-human-shipyard"} } )
 -----------------------------------------------------
 end
@@ -569,12 +569,12 @@ DefineButton( { Pos = 7, Level = 0, Icon = "icon-human-ship-move",
 
 DefineButton( { Pos = 8, Level = 0, Icon = "icon-human-ship-armor1",
   Action = "stop",
-  Key = "z", Hint = "INDIQUER STOP (!Z)",
+  Key = "z", Hint = "INDIQUER STOP (~!Z)",
   ForUnit = {"unit-human-shipyard"} } )
 
 DefineButton( { Pos = 9, Level = 0, Icon = "icon-human-ship-cannon1",
   Action = "attack",
-  Key = "e", Hint = "INDIQUER ATTAQUE (!E)",
+  Key = "e", Hint = "INDIQUER ATTAQUE (~!E)",
   ForUnit = {"unit-human-shipyard"} } )
 end
 end
@@ -620,13 +620,13 @@ DefineButton( { Pos = 3, Level = 0, Icon = "icon-ballista2",
 DefineButton( { Pos = 1, Level = 0, Icon = "icon-arrow2",
   Action = "research", Value = "upgrade-arrow1",
   Allowed = "check-single-research",
-  Key = "u", Hint = "AMêLIORER LES FLECHES (~!U) (DÇgat +1)",
+  Key = "u", Hint = "AMêLIORER FLECHES (~!U) (DÇgat +1)",
   ForUnit = {"unit-elven-lumber-mill"} } )
 
 DefineButton( { Pos = 1, Level = 0, Icon = "icon-arrow3",
   Action = "research", Value = "upgrade-arrow2",
   Allowed = "check-single-research",
-  Key = "u", Hint = "AMêLIORER LES FLECHES (~!U) (DÇgat +1)",
+  Key = "u", Hint = "AMêLIORER FLECHES (~!U) (DÇgat +1)",
   ForUnit = {"unit-elven-lumber-mill"} } )
 
 DefineButton( { Pos = 4, Level = 0, Icon = "icon-ranger",
