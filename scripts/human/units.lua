@@ -511,7 +511,7 @@ DefineUnitType("unit-human-transport", { Name = "Transport",
     "dead", "ship sinking",
     "attack", "human-transport-attack"} } )
 
-DefineUnitType("unit-human-destroyer", { Name = "Transporteur d'Elfes", -- __JFO Eleven destroyer
+DefineUnitType("unit-human-destroyer", { Name = "Destroyer Elfique", -- __JFO Eleven destroyer
   Files = {"tileset-summer", "human/units/elven_destroyer.png"},
   Size = {80, 88},
   Animations = "animations-elven-destroyer", Icon = "icon-human-destroyer",
@@ -1044,7 +1044,7 @@ DefineUnitType("unit-human-shipyard", { Name = "Chantier Naval",
     "dead", "building destroyed",
     "attack", "human-shipyard-attack"} } )
 
-DefineUnitType("unit-elven-lumber-mill", { Name = "Moulin des Elfes",
+DefineUnitType("unit-elven-lumber-mill", { Name = "Scierie des Elfes",
   Files = {"tileset-summer", "tilesets/summer/human/buildings/elven_lumber_mill.png",
     "tileset-winter", "tilesets/winter/human/buildings/elven_lumber_mill.png",
     "tileset-wasteland", "tilesets/wasteland/human/buildings/elven_lumber_mill.png",
