@@ -241,7 +241,7 @@ DefineButton( { Pos = 4, Level = 0, Icon = "icon-repair",
 
 DefineButton( { Pos = 5, Level = 0, Icon = "icon-harvest",
   Action = "harvest",
-  Key = "c", Hint = "Rê~!COLTER DU BOIS / MINER DE L'OR",
+  Key = "h", Hint = "RêCOLTER DU BOIS / MINER DE L'OR (~!H)",
   ForUnit = {"unit-peasant"} } )
 
 DefineButton( { Pos = 6, Level = 0, Icon = "icon-return-goods-peasant",
@@ -271,12 +271,12 @@ DefineButton( { Pos = 1, Level = 1, Icon = "icon-farm",
 
 DefineButton( { Pos = 2, Level = 1, Icon = "icon-human-barracks",
   Action = "build", Value = "unit-human-barracks",
-  Key = "c", Hint = "CONSTRUIRE UNE ~!CASERNE",
+  Key = "b", Hint = "CONSTRUIRE UNE CASERNE (~!B)",
   ForUnit = {"unit-peasant"} } )
 
 DefineButton( { Pos = 3, Level = 1, Icon = "icon-town-hall",
   Action = "build", Value = "unit-town-hall",
-  Key = "m", Hint = "CONSTRUIRE UNE ~!MAIRIE",
+  Key = "h", Hint = "CONSTRUIRE ~!HOTEL DE VILLE",
   ForUnit = {"unit-peasant"} } )
 
 DefineButton( { Pos = 4, Level = 1, Icon = "icon-elven-lumber-mill",
@@ -372,7 +372,7 @@ DefineButton( { Pos = 1, Level = 0, Icon = "icon-peasant",
 DefineButton( { Pos = 2, Level = 0, Icon = "icon-keep",
   Action = "upgrade-to", Value = "unit-keep",
   Allowed = "check-upgrade-to",
-  Key = "k", Hint = "AMêLIORER EN PLACE-FORTE (~!K)",
+  Key = "k", Hint = "AMêLIORER EN FORT (~!K)",
   ForUnit = {"unit-town-hall"} } )
 
 DefineButton( { Pos = 2, Level = 0, Icon = "icon-castle-upgrade",
@@ -385,7 +385,7 @@ if (extensions) then
 do
 DefineButton( { Pos = 5, Level = 0, Icon = "icon-harvest",
   Action = "harvest",
-  Key = "h", Hint = "INDIQUER RêCOLTER DU BOIS / MINER DE L'OR (~!H)",
+  Key = "h", Hint = "INDIQUER OU RêCOLTER DU BOIS / MINER DE L'OR (~!H)",
   ForUnit = {"unit-town-hall", "unit-keep", "unit-castle"} } )
 
 DefineButton( { Pos = 7, Level = 0, Icon = "icon-move-peasant",
@@ -455,7 +455,7 @@ DefineButton( { Pos = 1, Level = 0, Icon = "icon-mage",
 
 DefineButton( { Pos = 1, Level = 0, Icon = "icon-gryphon-rider",
   Action = "train-unit", Value = "unit-gryphon-rider",
-  Key = "g", Hint = "ENTRAINER ~!GRYPHON RIDER",
+  Key = "g", Hint = "ENTRAINER CAVALIER ~!GRYPHON",
   ForUnit = {"unit-gryphon-aviary"} } )
 
 DefineButton( { Pos = 1, Level = 0, Icon = "icon-human-oil-tanker",
@@ -470,7 +470,7 @@ DefineButton( { Pos = 2, Level = 0, Icon = "icon-human-destroyer",
 
 DefineButton( { Pos = 3, Level = 0, Icon = "icon-human-transport",
   Action = "train-unit", Value = "unit-human-transport",
-  Key = "t", Hint = "CONSTRUIRE ~!TRANSPORT",
+  Key = "t", Hint = "CONSTRUIRE ~!TRANSPORTEUR",
   ForUnit = {"unit-human-shipyard"} } )
 
 DefineButton( { Pos = 4, Level = 0, Icon = "icon-gnomish-submarine",
@@ -506,7 +506,7 @@ DefineButton( { Pos = 2, Level = 0, Icon = "icon-human-cannon-tower",
 
 DefineButton( { Pos = 1, Level = 0, Icon = "icon-human-ship-move",
   Action = "move",
-  Key = "m", Hint = "DEPLACER (~!M)",
+  Key = "m", Hint = "DêPLACER (~!M)",
   ForUnit = {"unit-human-oil-tanker",
     "unit-human-submarine", "unit-battleship", "unit-human-destroyer",
     "unit-human-transport"} } )
@@ -525,7 +525,7 @@ DefineButton( { Pos = 3, Level = 0, Icon = "icon-human-unload",
 
 DefineButton( { Pos = 4, Level = 0, Icon = "icon-human-oil-platform",
   Action = "build", Value = "unit-human-oil-platform",
-  Key = "b", Hint = "CONSTRUIRE UNE PLATEFORME PêTROLIERE (~!B)",
+  Key = "b", Hint = "CONSTRUIRE PLATEFORME PêTROLIERE (~!B)",
   ForUnit = {"unit-human-oil-tanker"} } )
 
 DefineButton( { Pos = 5, Level = 0, Icon = "icon-human-ship-haul-oil",
@@ -584,13 +584,13 @@ end
 DefineButton( { Pos = 1, Level = 0, Icon = "icon-sword2",
   Action = "research", Value = "upgrade-sword1",
   Allowed = "check-single-research",
-  Key = "w", Hint = "AMêLIORER LES êPêS (~!W) (DÇgat +2)",
+  Key = "w", Hint = "AMêLIORER LES êPêES (~!W) (DÇgat +2)",
   ForUnit = {"unit-human-blacksmith"} } )
 
 DefineButton( { Pos = 1, Level = 0, Icon = "icon-sword3",
   Action = "research", Value = "upgrade-sword2",
   Allowed = "check-single-research",
-  Key = "w", Hint = "AMêLIORER LES êPêS (~!W) (DÇgat +2)",
+  Key = "w", Hint = "AMêLIORER LES êPêES (~!W) (DÇgat +2)",
   ForUnit = {"unit-human-blacksmith"} } )
 
 DefineButton( { Pos = 2, Level = 0, Icon = "icon-human-shield2",
