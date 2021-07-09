@@ -4,8 +4,8 @@
 
 Briefing("type", "wc2",
   "title", "VIII. THE RUNESTONE AT CAER DARROW",
-  "objective", "-Destroy the Human Castle",
-  "objective", "-Secure the Runestone",
+  "objective", "-D‚truire le Chateau des Humains",
+  "objective", "-S‚curiser la Pierre des Runes",
   "background", "campaigns/orc/interface/introscreen3.png",
   "text", "campaigns/orc/level08o.txt",
   "voice", "campaigns/orc/level08o-intro1.wav"
